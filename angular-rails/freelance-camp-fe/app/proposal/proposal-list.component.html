@@ -1,1 +1,11 @@
 <h1>Proposal List</h1>
+
+<div *ngFor="let prop of proposals" >
+  <div>
+  Customer: {{ prop.customer }} : {{ prop.portfolio_url }}
+  </div>
+  <div>
+    Tools: {{ prop.tools }}
+  </div>
+  <hr>
+</div>

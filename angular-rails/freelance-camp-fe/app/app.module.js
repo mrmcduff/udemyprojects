@@ -11,6 +11,7 @@ var app_component_1 = require("./app.component");
 var documents_component_1 = require("./documents/documents.component");
 var homepage_component_1 = require("./homepage/homepage.component");
 var proposal_list_component_1 = require("./proposal/proposal-list.component");
+var proposal_new_component_1 = require("./proposal/proposal-new.component");
 var app_routing_module_1 = require("./app-routing.module");
 var AppModule = (function () {
     function AppModule() {
@@ -27,7 +28,8 @@ AppModule = __decorate([
             app_component_1.AppComponent,
             documents_component_1.DocumentsComponent,
             homepage_component_1.HomepageComponent,
-            proposal_list_component_1.ProposalListComponent
+            proposal_list_component_1.ProposalListComponent,
+            proposal_new_component_1.ProposalNewComponent
         ],
         bootstrap: [
             app_component_1.AppComponent

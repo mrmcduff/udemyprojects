@@ -14,21 +14,21 @@ export class DocumentsComponent {
       description: "this is a hello world doc",
       file_url: "https://www.google.com",
       updated_at: "today",
-      image_url: "https://www.google.com"
+      image_url: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Mistakes-to-avoid-when-hiring-freelancers.jpg"
     },
     {
       title: "Second document",
       description: "this is a second hello world doc",
       file_url: "https://www.google.com",
       updated_at: "today",
-      image_url: "https://www.google.com"
+      image_url: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Mistakes-to-avoid-when-hiring-freelancers.jpg"
     },
     {
       title: "Third document",
       description: "this is a third hello world doc",
       file_url: "https://www.google.com",
       updated_at: "today",
-      image_url: "https://www.google.com"
+      image_url: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Mistakes-to-avoid-when-hiring-freelancers.jpg"
     }
   ]
 }

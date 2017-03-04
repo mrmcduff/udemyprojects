@@ -12,6 +12,6 @@
 		title: "Document #{d}",
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
 		file_url: "https://docs.google.com/document/d/1UUgAob6ZpivgkgCbMD84JMMRc1flrzCPKybtQoAfASo/edit?usp=sharing",
-		image_url: 'https://s3.amazonaws.com/devcamp-static/images/freelance-img.jpg'
+		image_url: 'https://img.gadgethacks.com/img/89/05/63481765268007/0/your-guide-finding-free-creative-commons-images-and-other-media-online.1280x600.jpg'
 	)
 end

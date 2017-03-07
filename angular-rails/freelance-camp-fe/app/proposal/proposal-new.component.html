@@ -130,11 +130,19 @@
           </div>
 
           <button type="submit"
-          class="btn btn-outline-primary btn-lg"
-          [disabled]="!proposalForm.form.valid"
-          [hidden]="submitted">
+            class="btn btn-outline-primary btn-lg"
+            [disabled]="!proposalForm.form.valid"
+            [hidden]="submitted">
             Generate Proposal
           </button>
+
+          <div
+            [hidden]="!submitted"
+            class="alert alert-success"
+            role="alert">
+            Your proposal has been generated. <a class="alert-link"
+            routerlink="/proposals">View all proposals</a>
+          </div>
         </form>
       </div>
     </div>
